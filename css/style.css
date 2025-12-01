@@ -1,6 +1,32 @@
+:root{
+    --muted-text:#909090;
+    --white-text: white;
+}
 /* reset */
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+/* utils */
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* header */
+.page-header{
+    padding: 20px 0;
+}
+.page-header > .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-header-right{
+    display:flex
 }
