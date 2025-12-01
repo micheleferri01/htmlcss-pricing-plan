@@ -11,6 +11,7 @@
 
 body{
     font-family: sans-serif;
+    padding: 10px 20px;
 }
 /* utils */
 .container{
@@ -19,9 +20,6 @@ body{
 }
 
 /* header */
-.page-header{
-    padding: 20px 0;
-}
 .page-header > .container{
     display: flex;
     justify-content: space-between;
@@ -29,4 +27,34 @@ body{
 
 .page-header-right{
     display:flex
+}
+
+/* main */
+main>.container{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: blueviolet;
+    padding: 20px;
+    width: calc(100% / 3 - 1rem * 2 / 3);
+    min-width: 200px;
+    flex-grow: 1;
+}
+
+.card-offer-price,.card-offer-list-properties{
+    text-align: center;
+}
+.card-offer-list-properties{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+ul{
+    list-style:none;
 }
