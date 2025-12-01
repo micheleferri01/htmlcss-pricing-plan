@@ -56,6 +56,43 @@ h1{
     padding: 10px 0;
 }
 
+.monthly, .yearly{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.monthly > div{
+    width: 22px;
+    height: 14px;
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.monthly > div > div{
+    width: 11px;
+    height: 11px;
+    border: 2px white solid;
+    background-color: white;
+    border-radius: 50%;
+    translate: 8px 0;
+
+}
+
+.yearly > div {
+    width: 22px;
+    height: 14px;
+    border: 2px var(--muted-text) solid;
+    border-radius: 10px;
+}
+
+.yearly > div > div{
+    width: 11px;
+    height: 11px;
+    border: 2px var(--muted-text) solid;
+    border-radius: 50%;
+}
+
 /* main */
 main{
     padding: 20px;
